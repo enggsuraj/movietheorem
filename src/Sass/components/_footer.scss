@@ -1,0 +1,100 @@
+/* FOOTER */
+footer {
+  bottom: 0;
+  width: 100%;
+  color: var(--bg-white);
+  padding-right: 0.8rem;
+  padding-left: 0;
+  font-size: 12px;
+  position: relative;
+}
+
+.footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+/* 1 */
+.footer__row-about {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+/* 2 */
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.about__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 70%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  li {
+    &:hover {
+      color: var(--bg-blue);
+    }
+  }
+}
+
+.social__box-description {
+  margin-bottom: 10px;
+}
+
+.app__box-description {
+  margin-bottom: 10px;
+}
+
+.about__description {
+  opacity: 0.7;
+}
+
+/* FB- TW */
+.social__box-elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  img {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+/* APPSTORE-PLAYSTORE */
+.app__box-elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  img {
+    height: 25px;
+    width: 25px;
+  }
+}

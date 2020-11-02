@@ -1,0 +1,58 @@
+/* 
+DIVIDED TO 5 PARTS 
+
+1. BASE
+2. HEADER
+3. SLIDER
+4. CONTAINER
+5. FOOTER
+*/
+
+:root {
+  --bg-color: #032541;
+  --bg-black: black;
+  --bg-white: white;
+  --bg-blue: dodgerblue;
+  --bg-switch: #ccc;
+  --bg-switch-after: #ffe05d;
+  --bg-submenu-onhover: rgb(200, 200, 200);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  &::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+  &::before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+}
+
+.clearfix {
+  overflow: auto;
+  content: "";
+  clear: both;
+}
+
+body {
+  font-size: $default-font-size;
+  height: 95vh;
+  background-color: var(--bg-color);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+}
+
+a {
+  color: var(--bg-white);
+}
+
+svg {
+  width: 15px;
+  margin: 4px;
+}

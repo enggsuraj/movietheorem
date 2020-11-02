@@ -1,0 +1,13 @@
+/* DISPLAY ON SEARCH-MOVIE CONTAINER */
+
+.SearchContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}

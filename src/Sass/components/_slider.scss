@@ -1,0 +1,138 @@
+/*  SLIDER  */
+.prev {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: var(--bg-white);
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: var(--bg-white);
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.slider {
+  margin-bottom: 1rem;
+}
+.slider__container {
+  position: relative;
+}
+.slider__container-each {
+  position: relative;
+  height: 450px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.shade {
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.shade-1 {
+  background-position: center;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(12%, rgba(0, 0, 0, 1)),
+      color-stop(70%, rgba(255, 255, 255, 0))
+    ),
+    url("../img/stree.jpg");
+  background-image: -o-linear-gradient(
+      left,
+      rgba(0, 0, 0, 1) 12%,
+      rgba(255, 255, 255, 0) 70%
+    ),
+    url("../img/stree.jpg");
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 12%,
+      rgba(255, 255, 255, 0) 70%
+    ),
+    url("../img/stree.jpg");
+}
+.shade-2 {
+  background-position: top;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(12%, rgba(0, 0, 0, 1)),
+      color-stop(70%, rgba(255, 255, 255, 0))
+    ),
+    url("../img/sherlock.jpg");
+  background-image: -o-linear-gradient(
+      left,
+      rgba(0, 0, 0, 1) 12%,
+      rgba(255, 255, 255, 0) 70%
+    ),
+    url("../img/sherlock.jpg");
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 12%,
+      rgba(255, 255, 255, 0) 70%
+    ),
+    url("../img/sherlock.jpg");
+}
+.shade-3 {
+  background-position: bottom;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(12%, rgba(0, 0, 0, 1)),
+      color-stop(70%, rgba(255, 255, 255, 0))
+    ),
+    url("../img/photo-1.jpg");
+  background-image: -o-linear-gradient(
+      left,
+      rgba(0, 0, 0, 1) 12%,
+      rgba(255, 255, 255, 0) 70%
+    ),
+    url("../img/photo-1.jpg");
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 12%,
+      rgba(255, 255, 255, 0) 70%
+    ),
+    url("../img/photo-1.jpg");
+}
+.slider__container-each-content {
+  position: absolute;
+  padding: 1rem;
+  color: var(--bg-white);
+  top: 6rem;
+  left: 3rem;
+  width: 40%;
+  h4 {
+    opacity: 0.7;
+  }
+  h5 {
+    opacity: 0.7;
+  }
+}
+.slider__container-each-content-margin {
+  margin: 0.6rem 0;
+}

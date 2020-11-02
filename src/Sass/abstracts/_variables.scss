@@ -1,0 +1,26 @@
+// VARIABLES
+
+
+// FONT
+$default-font-size: 14px;
+$font-size-laptop: 10px;
+$font-size-tablet: 10px;
+$font-size-phone: 8px;
+$font-size-smallphone: 8px;
+
+// MEDIA QUERY MANAGER
+
+/*
+0 - 370px:      Phone
+370 - 480px:    Tablet portrait
+480 - 767px:   Tablet landscape
+[767 - 1023] is where our normal styles apply
+1800px + :      Big desktop
+
+$breakpoint arguement choices:
+- smallphone
+- phone
+- tablet
+- laptop
+
+*/

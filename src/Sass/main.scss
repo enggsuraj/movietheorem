@@ -1,0 +1,13 @@
+@import "abstracts/variables";
+
+@import "base/base";
+
+@import "components/header";
+@import "components/slider";
+@import "components/container";
+@import "components/footer";
+@import "components/search";
+@import "components/sidenavigation";
+@import "components/responsive";
+
+$default-font-size: 14px;
