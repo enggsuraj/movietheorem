@@ -70,4 +70,4 @@ async function getSearchResults(newURL) {
 getTopRated();
 getPopularMovie();
 getUpcomingMovie();
-console.log("Server running ...");
+console.log("Running ...");
