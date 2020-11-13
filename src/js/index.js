@@ -48,7 +48,7 @@ async function getTopRated() {
   FetchData(containerSection, request.fetchTopRated);
 }
 
-// GET POPULAT MOVIES
+// GET POPULAR MOVIES
 async function getPopularMovie() {
   let containerSection = document.querySelector(UIComponents.PopularMovie);
   FetchData(containerSection, request.fetchPopularMovie);
