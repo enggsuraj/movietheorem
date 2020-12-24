@@ -1,4 +1,4 @@
-# 🎬 Movie App Library 
+# 🎬 Movie App Library
 
 Vanilla JS + Sass based Disney+Hotstar clone movie app library.
 
