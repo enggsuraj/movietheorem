@@ -2,7 +2,7 @@
 
 Vanilla JS + Sass based Disney+Hotstar clone movie app library.
 
-![movie-app](https://user-images.githubusercontent.com/6918020/97837847-09b79400-1d05-11eb-9b69-59f0b68ecb14.png)
+![Movie-Theorem](https://user-images.githubusercontent.com/6918020/103407647-67d9e980-4b85-11eb-935b-064cef845a04.png)
 
 ### Installation
 
