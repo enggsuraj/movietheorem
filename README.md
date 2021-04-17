@@ -29,8 +29,6 @@ npm install
 API_KEY = 'ENTER YOUR API';
 ```
 
-### Usage
-
 ##### Development Mode
 
 ```shell
