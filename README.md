@@ -1,4 +1,4 @@
-# 🎬 Movie Library Application 
+# 🎬 Movie Library Application  
 
 ## Tech Used:
 * Vanilla Javascript
